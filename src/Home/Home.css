@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 1990px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: normal; 
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.title h1 {
+    font-size: 300%;
+    color: black;
+}
+
+body {
+    position: relative;
+    top: 30px;
+    border-left: 10px;
+
+    
+}
+body img {
+    position: relative;
+    margin: 30px 30px 30px 30px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+body p {
+    clear: right;
+    padding-top: 30px;
+    font-size: 120%;
+    font-family: sans-serif;
+    margin-left: 10px;
+    z-index: -1;
+}
+.youtube {
+    width: 560px;
+    height: 315px;
+    margin: 25px auto;
+    clear: both;
+}
