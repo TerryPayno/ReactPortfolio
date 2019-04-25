@@ -3,11 +3,11 @@ import React from 'react';
     function Home() {
   return (
  <body>
-        <div class="title">
+        <div className="title">
             
         </div>
         <div>
-            <img src={require("../Images/TestImage.jpg")} alt=""/>       
+            <img src={require("../Images/TestImage.jpg")} alt=""/>   
         </div>
         <h1>James Payne Portfolio</h1>
 
@@ -15,7 +15,7 @@ import React from 'react';
         <div>
             <p>Aliquam erat volutpat. Aliquam erat volutpat. Sed pellentesque in est iaculis sodales. Suspendisse potenti. Morbi eu mi eget nisi porta commodo sit amet non sem. Cras et massa sed ipsum imperdiet pellentesque. Pellentesque cursus at ex quis varius. Maecenas libero nisi, semper a lobortis at, pharetra at orci. Duis euismod gravida augue, sed feugiat eros pharetra a. Pellentesque eleifend at lectus non placerat. Aliquam non est fringilla, tempor ligula nec, placerat turpis.</p>
         </div>
-                <div class="youtube">
+                <div className="youtube">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/fCrQKeAZeIU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </body>

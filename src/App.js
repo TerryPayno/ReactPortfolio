@@ -5,13 +5,12 @@ import './Nav/Nav.css';
 import Home from './Home/Home';
 import './Home/Home.css';
 
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Nav/>
         <Home/>
-
       </header>
     </div>
   );

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 2000px;
+}
+
+.title {
+    padding-top: 60px;
+    font-family: sans-serif;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.form {
+    padding-top: 50px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form p {
+    font-family: sans-serif;
+}
